@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Fjalla+One&display=swap");
 
 * {
@@ -52,3 +53,60 @@ h1 {
     font-size: 80px;
     margin-bottom: auto;
 }
+=======
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Fjalla+One&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+    font-weight: normal;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #67e8e8, #fa56d1);
+}
+
+.counter-grid {
+    margin:auto;
+    padding: 40px;
+    min-width: 200px;
+    color: white;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+}
+
+button {
+    color: white;
+    background-color: rgba(76, 71, 109, 0.265);
+    width: auto;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 10px;
+    border-color:  white;
+    border-style: solid;
+    min-width: 60px;
+    margin-bottom: 50px;
+}
+
+#number {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: auto;
+}
+ 
+>>>>>>> ab4d27a (end)
