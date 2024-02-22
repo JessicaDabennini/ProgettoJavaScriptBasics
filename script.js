@@ -23,6 +23,7 @@ function sub(){
 function res(){
     value = 0;
     counterResult.innerHTML =  value;
+}
 =======
 let counterResult = document.querySelector('[data-counter]');
 let minusBtn = document.querySelector('#minus');
