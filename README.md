@@ -1,6 +1,6 @@
 # ProgettoJavaScriptBasics
  <div align="center">
-  <img src="immages-home.png" width="200px">
+  <img src="immages/home.png" width="200px">
   <h1>Counter</h1>
 </div>
 
