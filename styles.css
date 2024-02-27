@@ -52,9 +52,6 @@ button {
 h1 {
     font-size: 80px;
     margin-bottom: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background-color: #fa56d1;
 }
 =======
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Fjalla+One&display=swap");
@@ -123,3 +120,6 @@ h1 {
     color: white;
 
 >>>>>>> 2443afe (updates done by)
+=======
+}
+>>>>>>> 944913b (Update styles.css)
