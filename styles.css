@@ -44,8 +44,12 @@ button {
     min-width: 60px;
 }
 
+button:hover {
+    opacity: 0.7;
+}
+
 p {
-    width: auto;
-    min-width: 60px; 
-    padding:20px; 
+    min-width: 120px; 
+    display: flex;
+    justify-content: center;
 }
