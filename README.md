@@ -14,5 +14,5 @@
 
 Here you can try the Counter web app:
 
-<a><link href="https://jsbasicsjessicadabennini.netlify.app/">LINK</a>
+<a href="https://jsbasicsjessicadabennini.netlify.app/">LINK</a>
 
