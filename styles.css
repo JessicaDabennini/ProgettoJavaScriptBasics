@@ -13,16 +13,23 @@ body {
 }
 
 div {
+    padding-top:100px;
+    padding-bottom:100px;
     margin:auto;
-    padding: 40px;
     min-width: 200px;
     color: white;
     max-width: 600px;
     display: flex;
     align-items: center;
-    margin-top: 50px;
     flex-direction: column;
     font-size: 80px;
+
+    .display{
+        max-height: 100px;
+        display:flex;
+        flex-direction: row;
+    }
+
 }
 
 button {
@@ -35,13 +42,10 @@ button {
     border-color:  white;
     border-style: solid;
     min-width: 60px;
-    margin-bottom: 50px;
 }
 
 p {
-    color: white;
     width: auto;
-    height: 60px;
-    font-size: 40px;
-    min-width: 60px;  
+    min-width: 60px; 
+    padding:20px; 
 }
