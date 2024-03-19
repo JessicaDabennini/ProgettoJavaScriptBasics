@@ -1,11 +1,30 @@
-let counterResult = document.querySelector('[data-counter]');
-let minusBtn = document.querySelector('#minus');
-let plusBtn = document.querySelector('#plus');
-let resetBtn = document.querySelector('#resetBtn');
+let counter=document.createElement('div');
+counter.textContent="Counter";
+document.body.appendChild(counter);
 
-plusBtn.addEventListener ('click', add);
+let display = document.createElement('div');
+counter.appendChild(display);
+display.className = "display";
+
+let minusBtn = document.createElement("button");
+minusBtn.textContent = '-';
+display.appendChild(minusBtn);
 minusBtn.addEventListener ('click', sub);
+
+let counterResult = document.createElement("p");
+counterResult.textContent = '0';
+display.appendChild(counterResult);
+
+let plusBtn = document.createElement("button");
+plusBtn.textContent = '+';
+display.appendChild(plusBtn);
+plusBtn.addEventListener ('click', add);
+
+let resetBtn = document.createElement("button");
+resetBtn.textContent = 'Reset';
+counter.appendChild(resetBtn);
 resetBtn.addEventListener ('click', res);
+
 
 let value = 0;
 
